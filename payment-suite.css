@@ -1,0 +1,217 @@
+.payment-suite-section {
+    width: 100%;
+}
+
+#payment-suite-section-heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    text-decoration: none solid rgb(2, 4, 42);
+    color: #02042a;
+    padding-bottom: 5px;
+}
+
+.payment-suite-gateway-container {
+    position: relative;
+}
+
+.payment-suite-container {
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    border: 0.0001px dotted #9ea2b3;
+    height: 519.779px;
+    padding-left: 40px;
+    padding-top: 48px;
+    margin-top: 70px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.payment-suite-left {
+    width: 50%;
+}
+
+.payment-suite-left-heading {
+    font-size: 28px;
+    line-height: 45.5px;
+    text-decoration: none solid rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.payment-gateway {
+    color: #2b84ea;
+}
+
+.payment-suite-ul {
+    padding-top: 20px;
+}
+
+.payment-suite-ul li::before {
+    content: "✓ ";
+    color: rgb(24, 114, 24);
+}
+
+
+.payment-suite-right {
+    width: 50%;
+}
+
+.payment-suite-background {
+    height: 440px;
+    width: 100%;
+}
+
+.payment-suite-list-item {
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.know-more {
+    background-color: white;
+    border: none;
+    color: #2b84ea;
+}
+
+.know-more:hover {
+    color: #02042a;
+    background-color: white;
+    border: none;
+}
+
+#bubble-background2 {
+    height: 167;
+    width: 233;
+    position: absolute;
+    top: -240px;
+    left: 100px;
+    z-index: -10;
+    overflow: hidden;
+    transform: rotate(180deg);
+}
+
+#bubble-background1 {
+    height: 167;
+    width: 233;
+    position: absolute;
+    top: -100px;
+    right: 0;
+    z-index: -5;
+    transform: rotate(180deg);
+}
+
+/* payment suite card link container css  */
+.payment-suite-card-container {
+    width: 1080px;
+    margin: 0 auto;
+    height: 500px;
+    display: grid;
+    row-gap: 50px;
+    padding-top: 80px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: white;
+    margin-bottom: 120px;
+}
+
+.card-container {
+    height: 225px;
+    width: 338.667px;
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+
+}
+.card-container:hover{
+    filter: drop-shadow(8px 8px 15px #f5f5f5);                                   
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 225px;
+    width: 338.667px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    clip-path: polygon(71% 0, 100% 36%, 100% 100%, 0 100%, 0 0);
+    stroke: 1px;
+    padding: 24px 48px 24px 48px;
+}
+.card:hover{
+    background-color: white;
+}
+.corner-icon {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    height: 50px;
+    background-color: #0b72e7;
+    border-radius: 50%;
+}
+.payment-suite-card-heading{
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 26.4px;
+    color: #162f56;
+}
+.payment-suite-card-description{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #818597;
+}
+.payment-suite-card-button{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    background-color: #ffffff;
+    color: #4b94ed;
+    cursor: pointer;
+    border: none;
+}
+.payment-suite-card-wave{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 60px;
+    opacity: 0;
+    transition: opacity 0.1s linear;
+}
+.card-container:hover .payment-suite-card-wave{
+    opacity: 1;
+}
+.payment-suite-bottom-div{
+    margin: 0 auto;
+    width: 1080px;
+    height: 50px;
+    border: 1px solid #72a5e3;
+    margin-bottom: 50px;
+    padding: 16px 16px 16px 16px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px;
+    background-image: linear-gradient(rgba(74,144,245,0.21), #f7f7f7);
+}
+.poduct-choose{
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 16.8px;
+    text-decoration: none solid rgb(43,60,94);
+    color: #2b3c5e;
+}
+.answer-question{
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none solid rgb(90,102,130);
+    color: #5a6682;
+}
+.find-product{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-decoration: none solid rgb(11,114,231);
+    color: #0b72e7;
+    cursor: pointer;
+}

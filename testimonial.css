@@ -1,0 +1,133 @@
+.swiper-wrapper {
+  width: 100%;
+}
+
+.testimonial-heading {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 28.8px;
+  text-align: center;
+  color: #02042a;
+  padding-bottom: 18px;
+  padding-top: 90px;
+}
+
+.testimonial-image {
+  height: 320px;
+  width: 299.33px;
+  /* padding-left: 190px; */
+  float: right;
+  margin-right: 24px;
+  border-radius: 10px;
+}
+
+.swiper-slide-card {
+  width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  padding-top: 48px;
+}
+
+.image-section {
+  width: 540px;
+  height: 320px;
+  /* border: 1px solid red; */
+}
+
+.desc-section {
+  text-align: left;
+  /* border: 1px solid red; */
+  height: 320px;
+  width: 540px;
+  color: #000000;
+  padding-top: 50px;
+  padding-left: 24px;
+}
+.test-desc{
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 45px;
+  width: 420px;
+  color: #000000;
+}
+.name{
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28.8px;
+  color: #02042a;
+}
+.job-title{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #000000;
+}
+.cmp-logo{
+  height: 40px;
+}
+.double-quote{
+  height: 24px;
+}
+
+/* Supercharge your business with Razorpay */
+
+.supercharge-business-section{
+  width: 100%;
+  background-image: url(./images/CTABg.svg);
+  height: 526px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.supercharge-business-section-container{
+  width: 1080px;
+  margin: 0 auto;
+  position: relative;
+  /* height: 300px; */
+  padding-top: 120px;
+  color: #ffffff;
+}
+.supercharge-heading{
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 28.8px;
+  padding-bottom: 24px;
+}
+.supercharge-description{
+  font-size: 16px;
+  line-height: 24px;
+  width: 440px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.supercharge-list{
+  padding-bottom: 24px;
+}
+.supercharge-list-item{
+  list-style: none;
+  font-size: 16px;
+  line-height: 24px;
+}
+.supercharge-list-item::before{
+  content: "✔ ";
+  color: rgb(91, 250, 91);
+}
+.aabbc{
+  background-color: #ffffff;
+  color: #4b94ed;
+}
+.aabbc:hover{
+  color: #376fb3;
+  background-color: #ffffff;
+}
+.fake-cmp-logo{
+  display: block;
+  position: absolute;
+  top: 120px;
+  right: 0;
+  height: 282px;
+  width: 240px;
+}

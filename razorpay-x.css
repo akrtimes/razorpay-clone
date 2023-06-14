@@ -1,0 +1,272 @@
+.razorpay-x-section {
+    position: relative;
+    background-image: url(./images/x-dark-bg.0bc3bc00.svg);
+    z-index: 10;
+    padding: 224px 32px 500px 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.abcd {
+    margin: 0 auto;
+}
+
+.razorpay-x-heading {
+    font-size: 24px;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 10px;
+    line-height: 28px;
+    text-decoration: none solid rgb(255, 255, 255);
+}
+
+.razorpay-x-feature-container {
+    position: relative;
+    /* background-color: rgb(24, 28, 46); */
+}
+
+#flame-image-1 {
+    position: absolute;
+    display: block;
+    top: -140px;
+    left: -130px;
+    height: 244.969px;
+    width: 200px;
+    /* z-index: -10; */
+    overflow: hidden;
+}
+
+#flame-image-2 {
+    position: absolute;
+    bottom: 0;
+    right: -175px;
+    z-index: -20;
+}
+
+
+.razorpay-x-feature-container {
+    width: 1080px;
+    height: 500px;
+    margin: 50px auto;
+    border: 1px dotted gray;
+    border-radius: 6px;
+    background-image: url(./images/buisness-banking.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    /* background-color: rgb(24, 28, 46); */
+    /* z-index: 12; */
+    /* background-color: red; */
+}
+
+.razorpay-x-feature-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    height: 100%;
+    width: 58%;
+    padding: 45px;
+}
+
+.razorpay-x-feature-button {
+    display: flex;
+    cursor: pointer;
+}
+
+.left-aling {
+    text-align: left;
+}
+
+.content-heading {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 45.5px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: left;
+    color: #ffffff;
+}
+
+#razorpayX-logo {
+    height: 32.114px;
+    width: 168px;
+}
+
+.feature-content-list {
+    list-style-type: none;
+    font-size: 16px;
+    text-decoration: none solid rgb(226, 226, 226);
+    text-align: left;
+    color: #e2e2e2;
+    line-height: 34px;
+}
+
+.feature-content-list-items::before {
+    content: "✓ ";
+    color: rgb(24, 114, 24);
+}
+
+.amitkumar {
+    background-color: transparent;
+    border: none;
+}
+
+.amitkumar:hover {
+    background-color: transparent;
+    border: none;
+    color: #0070f1;
+}
+
+
+.business-banking-link-container {
+    padding-top: 24px;
+    padding-bottom: 60px;
+    width: 1080px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+
+}
+
+.business-banking-card-box {
+    border-radius: 7px;
+    height: 225px;
+    cursor: pointer;
+    width: 338.667px;
+    position: relative;
+}
+
+.business-banking-card-box:hover {
+    filter: drop-shadow(8px 8px 15px #171717);
+}
+
+.business-banking-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 7px;
+    height: 225px;
+    width: 338.667px;
+    border: 1px dotted rgb(151, 137, 137);
+    background-color: rgb(24, 28, 46);
+    clip-path: polygon(71% 0, 100% 36%, 100% 100%, 0 100%, 0 0);
+    padding: 24px 48px 24px 48px;
+}
+
+.business-banking-card:hover {
+    border: none;
+    filter: drop-shadow(8px 8px 15px #000000);
+}
+
+.card-box-heading {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 26.4px;
+    text-decoration: none solid rgb(255, 255, 255);
+    color: #ffffff;
+}
+
+.card-box-description {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #818597;
+}
+
+.business-banking-icon {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 50px;
+    background-color: #0b72e7;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.know-more-btn {
+    font-size: 16px;
+    border: none;
+    font-weight: 700;
+    line-height: 24px;
+    color: #0b72e7;
+    background-color: transparent;
+    text-align: left;
+    cursor: pointer;
+}
+
+.wave-business-banking {
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    opacity: 0;
+}
+
+.business-banking-card-box:hover .wave-business-banking {
+    opacity: 1;
+}
+
+.checkout-demo {
+    width: 1080px;
+    margin: 0 auto;
+    height: 113.876px;
+    border: 1px dotted #525a76;
+    border-radius: 7px;
+    color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.cheack-out-demo-btn {
+    height: 48.53px;
+    width: 260px;
+    padding: 14px 18px 14px 18px;
+    border: 1px solid #2b84ea;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: center;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.wrap-btn {
+    position: relative;
+}
+
+.wrap-btn:hover .cheack-out-demo-btn {
+    background-color: #0f73e6;
+}
+
+.wrap-btn:hover .left-aling {
+    background-color: #0f73e6;
+}
+
+.green-ribon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 46px;
+    background-color: #61cea6;
+    transform: skew(20deg);
+    position: absolute;
+    top: -4.25px;
+    right: 28px;
+    cursor: pointer;
+}
+
+.arrow {
+    height: 18px;
+    background-color: white;
+    width: 18px;
+    clip-path: polygon(0 48%, 88% 47%, 60% 0%, 100% 50%, 60% 100%, 89% 54%, 0 54%);
+}

@@ -1,0 +1,96 @@
+.product-suite-section{
+    width: 100%;
+    margin-top: -100px;
+}
+.product-suite-section-container{
+    position: relative;
+    width: 1080px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
+}
+.product-suite-section-heading{
+    height: 300PX;
+    width: 349.333PX;
+}
+.product-suite-section-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300PX;
+    width: 349.333PX;
+    padding: 40px 40px 40px 40px;
+    box-shadow: 0px 0px 20px rgb(238, 238, 238);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.125s linear;
+    z-index: 10;
+    background-color: white;
+}
+.product-suite-section-card:hover{
+    transform: scale(1.03);
+}
+.product-suite-section-heading{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    text-decoration: none solid rgb(2,4,42);
+    color: #020402;
+    padding: 40px 40px 40px 40px;
+}
+.product-suite-section-razorpay{
+    color: #2b84ea;
+}
+.product-suite-section-card-icon{
+    background-color: #2b84ea;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.product-suite-section-card-heading{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21.6px;
+    color: #02042a;
+    text-decoration: none solid rgb(2,4,42);
+
+}
+.product-suite-section-card-description{
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none solid rgb(129,133,151);
+    color: #818597;
+    padding: 12px 0px 12px 0px;
+}
+
+.product-suite-section-card-before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.product-suite-section-card-after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+}
+.product-suite-section-card:hover .product-suite-section-card-after{
+    opacity: 1;
+}
+#product-dots1{
+    position: absolute;
+    top: -90px;
+    left: 250px;
+    z-index: -20;
+}
+#product-dots2{
+    position: absolute;
+    top: -90px;
+    right: -50px;
+    z-index: -20;
+}

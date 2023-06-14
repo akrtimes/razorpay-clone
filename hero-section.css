@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+#wrapper{
+    overflow-x: hidden;
+    overflow-y:auto ;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    background-color: hsla(237, 90.5%, 8.6%, 1);
+}
+.nav-bar{
+    height: 90.1562px;
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-bar-icon-section{
+    width: 147px;
+}
+#nav-bar-link-section{
+    width: 688.583px;
+}
+#nav-bar-button-section{
+    width: 244.417px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-links{
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 16px;
+    padding: 32px 12px 16px;
+    transition: color,border-bottom 0.2s linear;
+}
+.nav-links:hover{
+    color: lightskyblue;
+    border-bottom: 3.5px solid rgb(86, 112, 225);
+}
+.razor-pay-icon{
+    height: 30px;
+    width: 125px;
+    cursor: pointer;
+}
+.india-logo{
+    cursor: pointer;
+}
+.longin{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    background-color: #02042A;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none solid rgb(255,255,255);
+    padding: 12px 20px 12px 20px;
+    border: 1px solid #2b84ea;
+    border-radius: 2px;
+}
+.signup{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-decoration: none solid rgb(75,148,237);
+    background-color: #ffffff;
+    color: #4b94ed;
+    margin: 0 0 0 16px;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: color 0.25s linear;
+}
+.signup:hover{
+    color: #2866ac;
+}
+.hero-section{
+    width: 1080px;
+    margin: 0 auto;
+    background-color: hsla(237, 90.5%, 8.6%, 1) ;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.hero-sectin-left{
+    height: 496.646px;
+    width: 410px;
+    padding: 80px 0 80px 0;
+    min-height: auto;
+    max-width: 410px;
+    min-width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #f5f5f5;
+}
+#hero-section-left-heading{
+    padding-top: 15px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    text-decoration: none solid rgb(255, 255, 255);
+    word-spacing: 0px;
+    padding-bottom: 15px;
+}
+.green-line{
+    height: 4px;
+    width: 24px;
+    background-color: #61cea6;
+    
+}
+#hero-section-left-description{
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none solid rgb(255,255,255);
+    word-spacing: 0px;
+    color: #f5f5f5;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.hero-section-left-signup-btn{
+    box-sizing: rgba(0,0,0,0.5) 2px 4px 9px 1px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    word-spacing: 0px;
+    background-color: #2b84ea;
+    color: #ffffff;
+    height: 49.1875;
+    width: 162.172px;
+    padding: 14px 18px 14px 18px;
+    border-radius: 4px;
+    border: 1px solid #2b84ea;
+    cursor: pointer;
+    transition: color 0.25s linear;
+}
+.hero-section-left-signup-btn:hover{
+    background-color: #2361a8;
+}
+.hero-section-right{
+    height: 558.333px;
+    width: 670px;
+}
+.hero-section-right-image{
+    height: 558px;
+    width: 670px;
+}
+
+.hero-section-shape{
+    position: relative;
+    width: 100%;
+    background-color: white;
+}
+.shape{
+    width: 100%;  
+}

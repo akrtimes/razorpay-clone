@@ -1,0 +1,79 @@
+.footer-section{
+    width: 100%;
+}
+.footer-section-container{
+    width: 1080px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer-icon{
+    height: 24px;
+    width: 120px;
+}
+.footer-description{
+    font-size: 14px;
+    line-height: 22.75px;
+    text-decoration: none solid rgb(82,90,118);
+    color: #525a76;
+    margin: 12px 0px 0px 0px;
+    width: 248px;
+    text-align: left;
+}
+.footer-disclmair{
+    font-size: 10px;
+    line-height: 16.25px;
+    color: #525a76;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: 30px
+}
+.footer-image{
+    height: 70px;
+    width: 91px;
+}
+
+.footer-heading{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #525a76;
+    padding-top: 24px;
+}
+
+.footer-link{
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 28px;
+    white-space: nowrap;
+    color: #0b72e7;
+    text-decoration: none solid rgb(11,114,231);
+
+}
+.footer-link:hover{
+    color: rgb(101, 101, 101);
+}
+.find-online{
+    padding-top: 12px;
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    cursor: pointer;
+}
+.contact-us{
+    height: 24px;
+}
+.contact-us-address{
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none solid rgb(0,0,0);
+    color: #000000;
+    padding-left: 0;
+    padding-top: 12px;
+    /* padding-right: 8px; */
+}
