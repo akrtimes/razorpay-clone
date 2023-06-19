@@ -94,7 +94,6 @@
     background-color: hsla(237, 90.5%, 8.6%, 1) ;
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
 }
 .hero-sectin-left{
     height: 496.646px;

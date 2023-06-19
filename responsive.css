@@ -1,0 +1,291 @@
+ @media (max-width:800px) {
+     .hero-section {
+         width: 100%;
+         background-color: hsla(237, 90.5%, 8.6%, 1);
+         display: flex;
+         flex-direction: column;
+     }
+
+     .hero-sectin-left {
+         width: 100%;
+     }
+
+     .payment-suite-container {
+         width: 100%;
+         display: block;
+     }
+
+     .payment-suite-left {
+         width: 100%;
+         display: block;
+     }
+
+     .payment-suite-right {
+         display: block;
+         width: 100%;
+         height: 100%;
+     }
+
+     #bubble-background2 {
+         opacity: 0;
+     }
+
+     .payment-suite-card-container {
+         margin-top: 100%;
+         width: 100%;
+         height: 100%;
+         gap: 18px;
+         padding-top: 48px;
+         display: flex;
+         flex-direction: column;
+         background-color: white;
+         margin-bottom: 120px;
+     }
+
+     .card-container {
+         margin: 0 auto;
+
+     }
+
+     .payment-suite-bottom-div {
+         width: 95%;
+         height: 100%;
+         margin: 0 auto;
+     }
+
+     .razorpay-x-section {
+         padding-top: 150px;
+         padding-bottom: 0px;
+         padding-left: 0.5rem;
+         padding-right: 0.5rem;
+         background-position: left;
+     }
+
+     #flame-image-1 {
+         opacity: 0;
+     }
+
+     .razorpay-x-heading {
+         text-align: left;
+     }
+
+     .razorpay-x-feature-container {
+         width: 100%;
+         height: 100%;
+         background-image: none;
+         margin: 24px auto;
+     }
+
+     .razorpay-x-feature-content {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         color: white;
+         height: 100%;
+         width: 100%;
+         padding: 1rem;
+     }
+
+     .business-banking-link-container {
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+     }
+
+     .business-banking-card-box {
+         border-radius: 7px;
+         height: 180px;
+         cursor: pointer;
+         width: 100%;
+         position: relative;
+     }
+
+     .business-banking-card {
+         height: 150px;
+         width: 100%;
+         padding: 10px 20px 10px 20px;
+     }
+
+     .checkout-demo {
+         display: none;
+     }
+
+     .business-banking-icon {
+         top: 0px;
+         right: 15px;
+     }
+
+     .product-suite-section {
+         width: 100%;
+         margin-top: 0px;
+     }
+
+     .product-suite-section-container {
+         width: 95%;
+         margin: 0 auto;
+         display: flex;
+         flex-direction: column;
+     }
+
+     .product-suite-section-card {
+         height: 250px;
+         width: 100%;
+         padding-top: 1.5rem;
+
+     }
+
+     #product-dots1 {
+         opacity: 0;
+     }
+
+     #product-dots2 {
+         top: 90px;
+         right: -50px;
+     }
+
+     .feature-section {
+         width: 100%;
+         height: 1800px;
+         background-position: center;
+         background-size: cover;
+     }
+     .feature-section-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;     
+     }
+     .feature-section-description{
+        width: 100%;
+     }
+     .feature-section-card{
+        height: 300px;
+        width: 100%;
+        padding: 16px 16px 16px 16px;
+        text-align: left;   
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .moving-icons-section{
+        width: 100%;
+        height: auto;
+    }
+    .moving-icons-section-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 95%;
+        margin: 0 auto;
+        /* padding-top: 90px; */
+        
+    }
+    .moving-left-section{
+        width: 100%;
+        
+    }
+    .moving-left-section-heading{
+        width: 100%;
+        
+    }
+    .moving-left-section-description{
+        width: 100%;
+        height: auto;
+    }
+    .moving-right-section{
+        width: 100%;
+        height: auto;
+        
+    }
+    .moving-icons-container{
+        margin: 0 auto;
+    }
+    .testimonial-image {
+        display: block;
+        height: 250px;
+        width: 225px;
+        border-radius: 10px;
+      }
+    .swiper-slide-card{
+        width: 100%;
+        flex-direction: column;
+    }
+    .image-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .desc-section{
+        width: 100%;
+        height: auto;
+    }
+    .test-desc{
+        width: 100%;
+    }
+
+    /* Supercharge your business with Razorpay */
+    .supercharge-business-section{
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+    .supercharge-business-section-container{
+        width: 100%;
+        padding-top: 140px;
+    }
+    .supercharge-heading{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 18px;
+        padding-bottom: 12px;
+      }
+    .supercharge-description{
+        font-size: 12px;
+        line-height: 18px;
+        width: 100%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
+    .fake-cmp-logo{
+        display: none;
+    }
+    .supercharge-list{
+        display: inline;
+    }
+
+
+    .footer-section-container{
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 24px;
+        display: block;
+        
+    }
+    .footer-description{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer-heading{
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: #525a76;
+        padding-top: 18px;
+    }
+    
+    .footer-link{
+        display: block;
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 18px;
+        white-space: nowrap;
+        color: #0b72e7;
+        text-decoration: none solid rgb(11,114,231);
+    
+    }
+ }

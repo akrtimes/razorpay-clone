@@ -39,7 +39,7 @@
     height: 236.594px;
     width: 246px;
     padding: 0px 16px 0px 16px;
-    padding-top: 48px;
+    /* padding-top: 48px; */
     text-align: left;  
     display: flex;
     flex-direction: column;
